@@ -1,0 +1,74 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.banner {
+  height: 865px; /* width  : 1510px; */
+  background: url("./img/banner/banner.jpg") center center no-repeat;
+  padding: 20px;
+
+  .about-sign-in {
+    height: 80px;
+    width: 100%;
+    text-align: right;
+    .about,
+    .sign-in {
+      text-transform: uppercase; /* Viết hoa hết*/
+      text-decoration: none;
+      margin-top: 20px;
+      padding: 7px;
+      display: inline-block;
+    }
+    .sign-in {
+      margin-right: 60px;
+      margin-left: 25px;
+      border-radius: 20px;
+      border: 1px solid green;
+    }
+  }
+  .logo {
+    background: url("./img/imgs/hapoERP.png") center center no-repeat;
+    margin-top: 40px;
+    height: 100px;
+  }
+
+  .content-center {
+    margin-bottom: 20px;
+    .left,
+    .center,
+    .right {
+      width: 33%;
+      display: inline-block; /* Đưa về 1 hàng tách ra*/
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+      span {
+        display: block; /* Đưa chữ xuống dưới ảnh*/
+        font-size: 20px;
+      }
+    }
+  }
+
+  .text {
+    text-align: center;
+
+    .btn-start-now {
+      text-align: center;
+
+      button {
+        text-transform: uppercase;
+        padding: 10px 15px;
+        border-radius: 20px;
+        bottom: 1px solid green;
+        margin-top: 25px;
+        background: green;
+        cursor: pointer; /* Trỏ vào thành hình bàn tay*/
+      }
+    }
+  }
+}
